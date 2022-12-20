@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #3D5656;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px;
+    color: white;
+}
+
+.nav-links a{
+    color: white;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.menu{
+    display: flex;
+    gap: 1.5em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu i{
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+.containe{
+    display: flex;
+    justify-content: center;
+    width: min(100% - 15px, 1175px);
+    margin-inline: auto;
+    align-items: center;
+}
+
+img{
+    height: 449px;
+    width: 575px;
+    vertical-align: top;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.photo{
+    display: flex;
+}
+
+.subtitle{
+    margin-left: 30px;
+    padding-left: 20px;
+    line-height: 47px;
+    padding: 10px;
+}
+
+.intro{
+    font-size: 31px;
+}
+
+.passs{
+    font-size: 18px;
+}
+
+.details{
+    margin-top: 20px;
+    background-color: #439A97; 
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.details:hover{
+    background-color: burlywood;
+}
+
+.subtitle button{
+    color: white;
+}
+
+.subtitle a{
+    text-decoration: none;
+}
+
+/* #####################about################### */
+
+.sectiom{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-sectiom{
+    float: left;
+    width: 55%;
+    padding: 0px 70px;
+}
+.image-sectiom{
+    float: right;
+    width: 40%;
+}
+
+.image-sectiom img{
+    height: auto;
+    width: 80%;
+}
+.content-sectiom title{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.content p{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 44px;
+}
+
+.content-sectiom .social{
+    margin-top: 20px;
+}
+
+.content-sectiom .social i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.foot{
+    justify-content: center;
+    text-align: center;
+}
+
+.foot i{
+    font-size: 35px;
+    padding: 5px;
+}

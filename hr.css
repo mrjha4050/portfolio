@@ -1,0 +1,14 @@
+
+hr {
+    height: 1px;
+    background: burlywood;
+    border: none;
+    outline: none;
+    margin: 3em 3em 5em;
+    position: relative;    
+}
+
+hr.one {
+    width: 50%;
+    margin: 3em auto;
+}
