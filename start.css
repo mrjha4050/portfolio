@@ -11,10 +11,10 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
+    rgb(105, 255, 205) 0%,
+    rgb(105, 255, 205) 50%,
+    rgb(201, 108, 255) 50%,
+    rgb(201, 108, 255) 100%
   );
 }
 
@@ -31,9 +31,9 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 19px;
-    color: #3A4F7A;
+    color: #5c12af;
     /* color: white; */
-    color: #2B3467;
+    color: #5a198f;
 }
 
 .nav-links a{
@@ -49,7 +49,7 @@ li {
     display: flex;
     gap: 1.5em;
     font-size: 23px;
-    color: #3A4F7A;
+    color: #500b88;
 }
 
 .menu li:hover {
@@ -97,7 +97,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #7200a7;
 }
 
 .subtitle-intro{
@@ -111,7 +111,7 @@ img{
 .details{
     margin-top: 20px;
     /* background-color:#22A39F;  */
-    background-color: #FF597B;
+    background-color: #af59ff;
     color: white;
     text-decoration: none;
     border: none;
